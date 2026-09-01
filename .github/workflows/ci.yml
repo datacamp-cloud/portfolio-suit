@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate required files
+        run: |
+          set -e
+          test -f index.html
+          test -f style.css
+          test -f script.js
+          test -f vercel.json
+          grep -q '<!doctype html>' index.html
+          grep -q 'style.css' index.html
+          grep -q 'script.js' index.html
+          echo 'Portfolio files validated successfully.'
