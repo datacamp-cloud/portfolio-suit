@@ -1,0 +1,1 @@
+Profile assets are stored at the repository root. The main portrait is profile.png.
