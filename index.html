@@ -4,84 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Campbell Sehe Bi — Informaticien, développeur full-stack et consultant junior basé à Abidjan." />
-    <meta name="theme-color" content="#0b0b0c" />
+    <meta name="theme-color" content="#0b0a09" />
     <title>Campbell Sehe Bi — Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="noise"></div>
     <header class="nav">
       <a class="brand" href="#top" aria-label="Accueil">CSB<span>.</span></a>
-      <nav>
-        <a href="#about">À propos</a>
-        <a href="#work">Projets</a>
-        <a href="#skills">Compétences</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <nav><a href="#about">À propos</a><a href="#work">Projets</a><a href="#skills">Compétences</a><a href="#contact">Contact</a></nav>
       <a class="nav-cta" href="#contact">Disponible</a>
     </header>
-
     <main id="top">
       <section class="hero shell">
         <div class="hero-copy reveal">
           <p class="eyebrow"><span class="pulse"></span> INFORMATICIEN · ABIDJAN</p>
           <h1>Je transforme<br /><em>des idées</em> en<br />produits utiles.</h1>
           <p class="lead">Développement web, applications métier et expériences digitales pensées pour être simples, rapides et solides.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#work">Voir mes projets <span>↗</span></a>
-            <a class="button ghost" href="#contact">Me contacter</a>
-          </div>
-          <div class="hero-meta">
-            <span>01 — DEVELOPER</span><span>02 — CONSULTANT</span><span>03 — BUILDER</span>
-          </div>
+          <div class="hero-actions"><a class="button primary" href="#work">Voir mes projets <span>↗</span></a><a class="button ghost" href="#contact">Me contacter</a></div>
+          <div class="hero-meta"><span>01 — DEVELOPER</span><span>02 — CONSULTANT</span><span>03 — BUILDER</span></div>
         </div>
         <div class="portrait-wrap reveal delay">
-          <div class="portrait-frame">
-            <div class="portrait-placeholder" role="img" aria-label="Portrait de Campbell Sehe Bi">
-              <div class="portrait-initials">CSB</div>
-              <div class="portrait-placeholder">
-                <img src="profile.png" alt="Campbell Sehe Bi" />
-              </div>
-            </div>
-            <div class="portrait-index">PORTRAIT / 2026</div>
-          </div>
+          <div class="portrait-frame"><img class="portrait-image" src="profile.png" alt="Portrait de Campbell Sehe Bi" /><div class="portrait-index">PORTRAIT / 2026</div></div>
           <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
         </div>
       </section>
-
-      <section id="about" class="section shell about">
-        <div class="section-kicker">01 / PROFIL</div>
-        <div class="about-grid">
-          <h2>La technique au service<br /><span>du concret.</span></h2>
-          <div>
-            <p class="large-copy">Je conçois et développe des solutions numériques qui répondent à de vrais problèmes. Mon approche combine compréhension métier, développement propre et attention portée à l'expérience utilisateur.</p>
-            <div class="facts"><div><strong>01</strong><span>Web & mobile</span></div><div><strong>02</strong><span>Backend & APIs</span></div><div><strong>03</strong><span>UI & produit</span></div></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="section shell work">
-        <div class="section-head"><div><div class="section-kicker">02 / SÉLECTION</div><h2>Projets qui comptent.</h2></div><span class="counter">03 — 06</span></div>
-        <div class="project-list">
-          <article class="project featured"><div class="project-no">01</div><div class="project-main"><p>PLATEFORME LOGISTIQUE</p><h3>Bimbim</h3><p class="project-desc">Écosystème de livraison pensé pour la réalité ivoirienne : commande, suivi, livreurs, administration et expérience client.</p><div class="tags"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Maps</span></div></div><div class="project-arrow">↗</div></article>
-          <article class="project"><div class="project-no">02</div><div class="project-main"><p>DISCOVERY · MUSIC</p><h3>Kuma</h3><p class="project-desc">Expérience mobile de découverte musicale donnant davantage de visibilité aux artistes indépendants africains.</p><div class="tags"><span>React Native</span><span>Expo</span><span>Firebase</span></div></div><div class="project-arrow">↗</div></article>
-          <article class="project"><div class="project-no">03</div><div class="project-main"><p>FINTECH · PERSONAL</p><h3>GrowFi</h3><p class="project-desc">Assistant financier pensé pour aider les jeunes actifs africains à mieux piloter leur argent et leurs objectifs.</p><div class="tags"><span>Product</span><span>UX</span><span>Data</span></div></div><div class="project-arrow">↗</div></article>
-        </div>
-      </section>
-
-      <section id="skills" class="section shell skills">
-        <div class="section-kicker">03 / STACK</div>
-        <div class="skills-layout"><h2>Des outils,<br /><span>pas des trophées.</span></h2><div class="skill-cloud"><span>Vue.js</span><span>React</span><span>Next.js</span><span>React Native</span><span>Node.js</span><span>Express</span><span>TypeScript</span><span>Tailwind CSS</span><span>MongoDB</span><span>PostgreSQL</span><span>MySQL</span><span>Firebase</span><span>Git</span><span>Vercel</span></div></div>
-      </section>
-
-      <section id="contact" class="section contact shell">
-        <div class="contact-card"><div class="section-kicker">04 / CONTACT</div><h2>Un projet en tête ?<br /><span>Construisons-le.</span></h2><p>Pour une mission, une collaboration ou simplement échanger sur une idée.</p><a class="contact-link" href="mailto:campbell@example.com">campbell@example.com <span>↗</span></a></div>
-      </section>
+      <section id="about" class="section shell about"><div class="section-kicker">01 / PROFIL</div><div class="about-grid"><h2>La technique au service<br /><span>du concret.</span></h2><div><p class="large-copy">Je conçois et développe des solutions numériques qui répondent à de vrais problèmes. Mon approche combine compréhension métier, développement propre et attention portée à l'expérience utilisateur.</p><div class="facts"><div><strong>01</strong><span>Web & mobile</span></div><div><strong>02</strong><span>Backend & APIs</span></div><div><strong>03</strong><span>UI & produit</span></div></div></div></div></section>
+      <section id="work" class="section shell work"><div class="section-head"><div><div class="section-kicker">02 / SÉLECTION</div><h2>Projets qui comptent.</h2></div><span class="counter">03 — 06</span></div><div class="project-list"><article class="project featured"><div class="project-no">01</div><div class="project-main"><p>PLATEFORME LOGISTIQUE</p><h3>Bimbim</h3><p class="project-desc">Écosystème de livraison pensé pour la réalité ivoirienne : commande, suivi, livreurs, administration et expérience client.</p><div class="tags"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Maps</span></div></div><div class="project-arrow">↗</div></article><article class="project"><div class="project-no">02</div><div class="project-main"><p>DISCOVERY · MUSIC</p><h3>Kuma</h3><p class="project-desc">Expérience mobile de découverte musicale donnant davantage de visibilité aux artistes indépendants africains.</p><div class="tags"><span>React Native</span><span>Expo</span><span>Firebase</span></div></div><div class="project-arrow">↗</div></article><article class="project"><div class="project-no">03</div><div class="project-main"><p>FINTECH · PERSONAL</p><h3>GrowFi</h3><p class="project-desc">Assistant financier pensé pour aider les jeunes actifs africains à mieux piloter leur argent et leurs objectifs.</p><div class="tags"><span>Product</span><span>UX</span><span>Data</span></div></div><div class="project-arrow">↗</div></article></div></section>
+      <section id="skills" class="section shell skills"><div class="section-kicker">03 / STACK</div><div class="skills-layout"><h2>Des outils,<br /><span>pas des trophées.</span></h2><div class="skill-cloud"><span>Vue.js</span><span>React</span><span>Next.js</span><span>React Native</span><span>Node.js</span><span>Express</span><span>TypeScript</span><span>Tailwind CSS</span><span>MongoDB</span><span>PostgreSQL</span><span>MySQL</span><span>Firebase</span><span>Git</span><span>Vercel</span></div></div></section>
+      <section id="contact" class="section contact shell"><div class="contact-card"><div class="section-kicker">04 / CONTACT</div><h2>Un projet en tête ?<br /><span>Construisons-le.</span></h2><p>Pour une mission, une collaboration ou simplement échanger sur une idée.</p><a class="contact-link" href="mailto:campbell@example.com">campbell@example.com <span>↗</span></a></div></section>
     </main>
-
     <footer class="footer shell"><span>© 2026 Campbell Sehe Bi</span><span>Abidjan, Côte d'Ivoire</span><a href="#top">Retour en haut ↑</a></footer>
     <script src="script.js"></script>
   </body>
